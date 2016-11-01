@@ -1,4 +1,4 @@
-question = "a"
+question = "Hi"
 byeCount = 0
 
 while byeCount < 3
@@ -14,6 +14,8 @@ while byeCount < 3
 
   if question == "BYE"
     byeCount += 1
-    question = "a"
+    question = "Hi"
+  else
+    byeCount = 0
   end
 end
